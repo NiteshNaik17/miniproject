@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f4f4;
+background-image: url("farm.png");
+  background-size: cover;  
+
+}
+
+header {
+    background: #2e7d32;
+    color: white;
+    padding: 15px;
+    text-align: center;
+font-size:25px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+font-size:25px;
+
+}
+
+.hero {
+    text-align: center;
+    padding: 40px;
+font-size:35px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #2e7d32;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.sign{
+font-size:30px;
+}
+#form{
+font-size:20px;
+}
+
+.form-container {
+    width: 600px;
+    margin: 100px auto;
+ text-align:center;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #ccc;
+font-size:25px;
+color:green;
+   background-color: rgba(255, 255, 255, 0.1); 
+}
+.form-container:hover{
+border-color:blue;
+   background-color: rgba(255, 255, 255, 0.1); 
+}
+
+input, textarea, select {
+    width: 95%;
+    padding: 10px;
+    margin: 10px 0;
+border-radius: 5px;
+border-color:black;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    background-color:green;
+
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+button:hover{
+cursor:pointer;
+  /* Ensure the span can scale (spans are inline by default) */
+  display: inline-flex; 
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;}
+.card-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+
+}
+#name span {
+  display: inline-block;
+  transition: transform 0.1s ease;
+
+}
+#name:hover span {
+  transform: scale(1.2); 
+
+}
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+    width: 250px;
+}
+
+.detail-container {
+    width: 400px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+table {
+    width: 80%;
+    margin: 40px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+#signup-color input::placeholder {
+  color: green;
+  opacity: 1;
+bordercolor:orange;
+
+}
+#signup-color{
+ background-color: rgba(255, 255, 255, 0.1);
+}
+#signup-color:hover{
+ background-color: rgba(255, 255, 255, 0.1);
+}
+	
